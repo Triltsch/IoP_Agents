@@ -8,7 +8,7 @@ dependencies:
   - pip
 
   - pip:
-      - mesa[viz]==3.5.1
+      - mesa[viz]>=3.0
       - solara
       - matplotlib
       - networkx
