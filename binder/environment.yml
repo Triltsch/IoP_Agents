@@ -1,6 +1,14 @@
-name: example-environment
+name: mesa-env
+
+channels:
+  - conda-forge
+
 dependencies:
-  - python>=3.12
-  - networkx
+  - python=3.10
+  - pip
+
   - pip:
-    - mesa[viz]>=3.5
+      - mesa[viz]==3.5.1
+      - solara
+      - matplotlib
+      - networkx
