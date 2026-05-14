@@ -2,4 +2,4 @@ name: example-environment
 dependencies:
   - networkx
   - pip:
-    - mesa[viz]>=3.0
+    - mesa[viz]>=3.5
