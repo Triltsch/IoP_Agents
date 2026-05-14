@@ -9,7 +9,7 @@ dependencies:
 
   - pip:
       - mesa[viz]==3.0.3
-      - altair
+      - altair==5.2.0
       - solara
       - matplotlib
       - networkx
