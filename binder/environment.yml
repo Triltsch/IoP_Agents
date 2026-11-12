@@ -1,4 +1,4 @@
-name: mesa-env
+name: iop-agents
 
 channels:
   - conda-forge
@@ -6,10 +6,27 @@ channels:
 dependencies:
   - python=3.10
   - pip
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
 
   - pip:
+      # Week 1 + 2: Mesa simulation
       - mesa[viz]==3.0.3
       - altair==5.2.0
       - solara
       - matplotlib
       - networkx
+      # Week 2: OPC UA
+      - asyncua
+      - nest_asyncio
+      - wait-for2==0.3.2
+      # Week 3: LangGraph, MCP, LLM
+      - langgraph>=0.2
+      - langchain-core>=0.2
+      - langchain-openai>=0.1
+      - mcp>=1.0
+      - fastapi
+      - uvicorn
+      - httpx
+      - requests
