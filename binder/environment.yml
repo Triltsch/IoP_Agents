@@ -6,15 +6,14 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  - jupyterlab
-  - ipykernel
-  - ipywidgets
 
   - pip:
       # Week 1 + 2: Mesa simulation
       - mesa[viz]==3.0.3
       - altair==5.2.0
       - solara
+      - ipyvuetify
+      - ipyvue
       - matplotlib
       - networkx
       # Week 2: OPC UA
