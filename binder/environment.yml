@@ -11,9 +11,11 @@ dependencies:
       # Week 1 + 2: Mesa simulation
       - mesa[viz]==3.0.3
       - altair==5.2.0
-      - solara
-      - ipyvuetify
-      - ipyvue
+      # SolaraViz needs the Vuetify 2 based widgets: ipyvuetify/ipyvue >= 3 (Vuetify 3)
+      # break the controls ("[Vuetify] Could not find injected layout")
+      - solara==1.44.0
+      - ipyvuetify>=1.9,<3
+      - ipyvue>=1.10,<3
       - matplotlib
       - networkx
       # Week 2: OPC UA
