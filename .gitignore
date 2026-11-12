@@ -1,0 +1,9 @@
+# local / generated
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
