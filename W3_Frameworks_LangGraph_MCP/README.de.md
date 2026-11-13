@@ -8,9 +8,9 @@ Das Fabrikszenario wird als zustandsbehafteter LangGraph-Workflow neu aufgebaut.
 
 | Notebook | Thema |
 |---|---|
-| `01_LangGraph_Agents_solution` | Zustandsgraph, Knoten, bedingte Kanten; Abbildung Mesa → LangGraph; MCP-Konzept |
-| `02_MCP_LLM_solution` | MCP-Server (FastAPI, JSON-RPC 2.0) und -Client, LLM-Koordinator als **Stub** (ohne API-Key), Vollintegration LangGraph + MCP + LLM |
-| `03_MCP_LLM_API_solution` | Wie 02, aber mit **echter LLM-API** (OpenAI `gpt-4.1-mini`; Anthropic-Variante als Kommentar). Benötigt `OPENAI_API_KEY` |
+| `01_LangGraph_Agents_showcase` | Zustandsgraph, Knoten, bedingte Kanten; Abbildung Mesa → LangGraph; MCP-Konzept |
+| `02_MCP_LLM_showcase` | MCP-Server (FastAPI, JSON-RPC 2.0) und -Client, LLM-Koordinator als **Stub** (ohne API-Key), Vollintegration LangGraph + MCP + LLM |
+| `03_MCP_LLM_API_showcase` | Wie 02, aber mit **echter LLM-API** (OpenAI `gpt-4.1-mini`; Anthropic-Variante als Kommentar). Benötigt `OPENAI_API_KEY` |
 
 ## Hinweise
 

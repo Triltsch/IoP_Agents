@@ -29,5 +29,5 @@ Week 1 → week 2 → week 3. In week 2 start the OPC UA server (notebook 01) fi
 
 ## Notes
 
-- Notebook `W3/03_MCP_LLM_API_solution` needs an API key in the environment variable `OPENAI_API_KEY`. Never write a key into a notebook or commit it.
+- Notebook `W3/03_MCP_LLM_API_showcase` needs an API key in the environment variable `OPENAI_API_KEY`. Never write a key into a notebook or commit it.
 - Pinned versions: Mesa 3.0.3 and `wait-for2==0.3.2` (needed by `asyncua`). Other versions are not tested with these notebooks.

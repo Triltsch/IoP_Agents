@@ -29,5 +29,5 @@ Woche 1 → Woche 2 → Woche 3. In Woche 2 zuerst den OPC UA-Server (Notebook 0
 
 ## Hinweise
 
-- Das Notebook `W3/03_MCP_LLM_API_solution` benötigt einen API-Key in der Umgebungsvariable `OPENAI_API_KEY`. Schreiben Sie nie einen Key in ein Notebook und checken Sie ihn nicht ein.
+- Das Notebook `W3/03_MCP_LLM_API_showcase` benötigt einen API-Key in der Umgebungsvariable `OPENAI_API_KEY`. Schreiben Sie nie einen Key in ein Notebook und checken Sie ihn nicht ein.
 - Fest gewählte Versionen: Mesa 3.0.3 und `wait-for2==0.3.2` (von `asyncua` benötigt). Andere Versionen sind mit diesen Notebooks nicht getestet.

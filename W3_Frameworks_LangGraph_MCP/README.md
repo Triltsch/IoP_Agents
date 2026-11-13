@@ -8,9 +8,9 @@ The factory scenario is rebuilt as a stateful LangGraph workflow. Telemetry is f
 
 | Notebook | Topic |
 |---|---|
-| `01_LangGraph_Agents_solution` | State graph, nodes, conditional edges; mapping Mesa → LangGraph; MCP concept |
-| `02_MCP_LLM_solution` | MCP server (FastAPI, JSON-RPC 2.0) and client, LLM coordinator as **stub** (no API key), full integration LangGraph + MCP + LLM |
-| `03_MCP_LLM_API_solution` | As 02, but with a **real LLM API** (OpenAI `gpt-4.1-mini`; Anthropic variant as comment). Needs `OPENAI_API_KEY` |
+| `01_LangGraph_Agents_showcase` | State graph, nodes, conditional edges; mapping Mesa → LangGraph; MCP concept |
+| `02_MCP_LLM_showcase` | MCP server (FastAPI, JSON-RPC 2.0) and client, LLM coordinator as **stub** (no API key), full integration LangGraph + MCP + LLM |
+| `03_MCP_LLM_API_showcase` | As 02, but with a **real LLM API** (OpenAI `gpt-4.1-mini`; Anthropic variant as comment). Needs `OPENAI_API_KEY` |
 
 ## Notes
 
