@@ -8,9 +8,9 @@ The simulated factory is connected to the shop-floor protocol OPC UA: a server p
 
 | Notebook | Topic |
 |---|---|
-| `01_OPC_Server_solution` | The OPC UA server of the factory (machines `M01…`, `Temperature`, `State`, `Busy`, `RepairNeeded`). **Start it first and keep it running.** |
-| `02_OPC_PubSub_Clients_solution` | Publish/subscribe clients: polling vs. subscription |
-| `03_OPC_Hot_Monitor_Client_solution` | HOT monitor client (polling and subscription variant); its code is also available as `OPC_Hot_Monitor_Client_<lang>.py` |
+| `01_OPC_Server_showcase` | The OPC UA server of the factory (machines `M01…`, `Temperature`, `State`, `Busy`, `RepairNeeded`). **Start it first and keep it running.** |
+| `02_OPC_PubSub_Clients_showcase` | Publish/subscribe clients: polling vs. subscription |
+| `03_OPC_Hot_Monitor_Client_showcase` | HOT monitor client (polling and subscription variant); its code is also available as `OPC_Hot_Monitor_Client_<lang>.py` |
 | `04_Reactive_Agents_OPC_student` / `_solution` | Mesa agents with OPC UA coupling through a shared buffer; the student version has three gaps (TODO 1–3) |
 
 ## Files

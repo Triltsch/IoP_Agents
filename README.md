@@ -14,7 +14,7 @@ Hands-on exercises of the agent systems part of the lecture *Internet of Product
 
 ## Structure
 
-One folder per lecture week, one subfolder per language (`en`, `de`). Where an exercise has gaps for the students it exists as `_student` (with gaps `___` and `# TODO`) and `_solution`; the other notebooks are worked examples (`_solution`).
+One folder per lecture week, one subfolder per language (`en`, `de`). Where an exercise has gaps for the students it exists as `_student` (with gaps `___` and `# TODO`) and `_solution`; demo notebooks that are only run and discussed carry the suffix `_showcase`.
 
 | Folder | Content |
 |---|---|

@@ -14,7 +14,7 @@
 
 ## Struktur
 
-Ein Ordner je Vorlesungswoche, ein Unterordner je Sprache (`en`, `de`). Wo eine Übung Lücken für die Studierenden enthält, gibt es sie als `_student` (mit Lücken `___` und `# TODO`) und `_solution`; die übrigen Notebooks sind durchgerechnete Beispiele (`_solution`).
+Ein Ordner je Vorlesungswoche, ein Unterordner je Sprache (`en`, `de`). Wo eine Übung Lücken für die Studierenden enthält, gibt es sie als `_student` (mit Lücken `___` und `# TODO`) und `_solution`; Demo-Notebooks, die nur ausgeführt und besprochen werden, tragen das Suffix `_showcase`.
 
 | Ordner | Inhalt |
 |---|---|

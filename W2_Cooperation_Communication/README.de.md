@@ -8,9 +8,9 @@ Die simulierte Fabrik wird an das Fertigungsprotokoll OPC UA angebunden: Ein Ser
 
 | Notebook | Thema |
 |---|---|
-| `01_OPC_Server_solution` | OPC UA-Server der Fabrik (Maschinen `M01…`, `Temperature`, `State`, `Busy`, `RepairNeeded`). **Zuerst starten und laufen lassen.** |
-| `02_OPC_PubSub_Clients_solution` | Publish/Subscribe-Clients: Polling vs. Subscription |
-| `03_OPC_Hot_Monitor_Client_solution` | HOT-Monitor-Client (Polling- und Subscription-Variante); der Code liegt auch als `OPC_Hot_Monitor_Client_<Sprache>.py` vor |
+| `01_OPC_Server_showcase` | OPC UA-Server der Fabrik (Maschinen `M01…`, `Temperature`, `State`, `Busy`, `RepairNeeded`). **Zuerst starten und laufen lassen.** |
+| `02_OPC_PubSub_Clients_showcase` | Publish/Subscribe-Clients: Polling vs. Subscription |
+| `03_OPC_Hot_Monitor_Client_showcase` | HOT-Monitor-Client (Polling- und Subscription-Variante); der Code liegt auch als `OPC_Hot_Monitor_Client_<Sprache>.py` vor |
 | `04_Reactive_Agents_OPC_student` / `_solution` | Mesa-Agenten mit OPC UA-Kopplung über einen gemeinsamen Puffer; die Student-Version enthält drei Lücken (TODO 1–3) |
 
 ## Dateien
